@@ -55,7 +55,7 @@ var library = [
    	   readingStatus: false
    }];
 
-//Below is an array of objects. Each object is representing a book you have read.
+//Above is an array of objects. Each object is representing a book you have read.
 //console.log the readingStatus of each book in this array.
 
 
