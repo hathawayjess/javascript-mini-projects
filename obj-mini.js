@@ -9,7 +9,6 @@
 
 
 
-
 //Now write a for in loop that will console.log each value.
 
 
@@ -34,10 +33,6 @@
 //Answer here
 
 
-
-//Below is an array of objects. Each object is representing a book you have read.
-//console.log the readingStatus of each book in this array.
-
 var library = [ 
    {
        author: 'Bill Gates',
@@ -60,5 +55,19 @@ var library = [
    	   readingStatus: false
    }];
 
+//Below is an array of objects. Each object is representing a book you have read.
+//console.log the readingStatus of each book in this array.
+
+
+
+ //Check if the library array has any objects with the author 'Bill Gates'. If so, return true. If not, return false.
+
+
 
  //Remove any books not read (readingStatus:false) from the library array.
+
+
+
+ //Create an object called person with name = John, age = 50. Then, access the object to console.log "John is 50 years old".
+
+
