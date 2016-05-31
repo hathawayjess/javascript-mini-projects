@@ -24,10 +24,24 @@ describe('joe', function () {
 });
 
 describe('returnName', function () {
-    var testObj = {
-      name: "Brett"
-    }
-    expect(returnName(testObj)).toEqual('Brett')
+    it('should exist', function () {
+      expect(returnName).toEqual(jasmine.any(Function))
+    });
+
+    it('should return the name', function () {
+      var testObj = {
+        name: "Brett"
+      }
+
+      expect(returnName.call(testObj)).toEqual('Brett');
+    });
+
+    it('should be a method on Joe', function() {
+      expect(joe.returnName).toEqual(jasmine.any(Function))
+      expect(joe.returnName()).toEqual('Joe');
+
+    })
+
 });
 
 describe('sally', function () {
@@ -39,6 +53,28 @@ describe('sally', function () {
         expect(sally.name).toEqual('Sally')
         expect(sally.age).toEqual(27)
     });
+
+    it('should use returnName', function () {
+        expect(sally.returnName).toEqual(jasmine.any(Function))
+        expect(sally.returnName()).toEqual("Sally")
+    });
+});
+
+describe('ageDiff', function () {
+  it('should exist', function () {
+      expect(ageDiff).toEqual(jasmine.any(Function))
+  });
+
+  it('should check the difference between two different ages', function () {
+    var brett = {
+      age: 28
+    }
+    var pep = {
+      age: 10
+    }
+
+    expect(ageDiff(brett, pep)).toEqual(18);
+  });
 });
 
 describe('Pet', function () {
