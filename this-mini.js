@@ -27,14 +27,21 @@
 //Like you did with joe, add returnName as a method to the sally object. Invoke it.
 
 
+//Write a function that takes both joe and sally as parameters and returns the difference in their ages.
+
+
 
 
 //Make a constructor function called Pet that will create an object with a name property, a species property, and a color property.
 //Add a method called log on your constructor that will console.log the pet's name, species, and color.
 
 
+
+
 //Using the Pet constructor, create three new Pet objects passing in the species, breed and color of your favorite pets (or make some up). 
 //Store them in variables.
+
+
 
 
 
@@ -48,6 +55,8 @@
 
 
 
+
+
 //Now uncomment the console.log below and notice that cart is not defined.
 //console.log(cart)
 
@@ -58,8 +67,14 @@
 
 
 
+
+
 //In your shopping function, return two methods. One will be called getCart and the other will be called addToCart.
 //getCart will return the cart array and addToCart will take in an item as a parameter and add it to the cart array.
+
+
+
+
 
 
 
