@@ -114,7 +114,7 @@ function numberGenerator() {
 //        var sayBye = "Goodbye, ";
 
 //Step 2: Below these variables, declare two functions. Both should take a name parameter. One should be called hello and one should be called goodbye.
-//		  The hello function should console.log(sayHi + name) and the goodbye function should console.log(sayBye + name)
+//		  The hello function should return sayHi + name and the goodbye function should return sayBye + name
 
 //Step 3: Following the module pattern, return an object containing these two function definitions so we can access them from outside helloGoodbye's scope.
 
