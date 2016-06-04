@@ -37,7 +37,6 @@ function sayHello() {
 //Line A
 
 //console.log(sayHelloClosure);
-
 //Line B
 
 
@@ -46,7 +45,7 @@ function sayHello() {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
+//NO TESTS
 //You found a mysterious piece of code that calculates and prints theAnswer. What will it print and why?
 
 	//Answer
@@ -89,14 +88,17 @@ console.log(theAnswer);
 function numberGenerator() {
   //Line A
 
-  //Line B 
+  //Line B
+
 
   num++;
   //Line C
 
+
 }
 
 //Line D
+
 
 //Line E
 
@@ -116,9 +118,9 @@ function numberGenerator() {
 
 //Step 3: Following the module pattern, return an object containing these two function definitions so we can access them from outside helloGoodbye's scope.
 
-//Step 4: Now invoke helloGoodbye and save it to a new variable.
-//        Then, invoke the hello method from that new variable and pass in your name. Check your console to make sure it worked.
-//        Invoke the goodbye method and pass in your name. Check your console.
+//Step 4: Now invoke helloGoodbye and save it to a new variable called greeting. 
+//        Then, invoke the hello method, passing in your name and save it to a new variable called myHello. 
+//        Invoke the goodbye method, passing in your name and save it to a new variable called myGoodbye. 
 
 
 
@@ -134,23 +136,21 @@ function numberGenerator() {
 
 
 
-
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 //Below is a function with a private reference to the password variable.
 //Inside the return object, write a method called guessPassword that will take in a guess parameter.
 //Have that method return true if the guess is equal to password, and false if it's not.
 
-
-
-
 function secretPassword() {
   var password = 'xh38sk';
   return {
   	//Code here
+    }
   }
-}
+
 
 var passwordGame = secretPassword();
 passwordGame.guessPassword('heyisthisit?'); // should return false
@@ -164,6 +164,7 @@ passwordGame.guessPassword('xh38sk'); // should return true
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//NO TESTS
 
 //Step 1: Take a look at the function below and think about what it will print in the console.
 //        When you invoke the function below, you'll notice that it prints the number 5 multiple times.
